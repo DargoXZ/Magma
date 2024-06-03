@@ -1,0 +1,46 @@
+<layouts>
+    <layout id="MainLayout">        
+        <drawable id="LeftMeter" class="Meter">
+            <param name="side">:left</param>
+            <param name="type">:strideRate</param>
+        </drawable>
+
+        <drawable id="RightMeter" class="Meter">
+            <param name="side">:right</param>
+            <param name="type">:heartRate</param>
+        </drawable>
+
+        <drawable id="Magma" class="Magma">
+        </drawable>
+
+        <drawable id="LeftDataCircle" class="DataCircle">
+            <param name="radius">42</param>
+            <param name="numPoints">30</param>
+            <param name="side">:left</param>
+            <param name="type">:strideRate</param>
+        </drawable>
+
+        <drawable id="RightDataCircle" class="DataCircle">
+            <param name="radius">42</param>
+            <param name="numPoints">30</param>
+            <param name="side">:right</param>
+            <param name="type">:heartRate</param>
+        </drawable>
+        
+        <drawable id="DistanceBox" class="DataBox">
+            <param name="locY">-55</param>
+            <param name="type">:distance</param>
+        </drawable>
+
+        <drawable id="TimeBox" class="DataBox">
+            <param name="locY">0</param>
+            <param name="type">:time</param>
+        </drawable>
+
+        <drawable id="PaceBox" class="DataBox">
+            <param name="locY">55</param>
+            <param name="type">:pace</param>
+        </drawable>
+
+    </layout>
+</layouts>
